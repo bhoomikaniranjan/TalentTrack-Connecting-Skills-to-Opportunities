@@ -1,0 +1,224 @@
+/* Global Styles */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #fff1eb, #ace0f9);
+    color: #333;
+    animation: fadeInUp 0.8s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 50px;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin: 2%;
+    margin-bottom: 0;
+    border: 1px solid #f7c1a2;
+}
+
+header h1 {
+    font-size: 28px;
+    color: #d94f04;
+}
+
+
+/* Buttons */
+
+.login-buttons button {
+    background: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    margin-left: 10px;
+    border-radius: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.login-buttons button:hover {
+    background: #d94f04;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 111, 97, 0.3);
+}
+
+
+/* Hero Section */
+
+main {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero img {
+    max-width: 100%;
+    width: 520px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.hero img\:hover {
+    transform: scale(1.03);
+}
+
+.hero h2 {
+    font-size: 38px;
+    margin-top: 20px;
+    color: #dd3c0a;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+}
+
+
+/* Trusted Companies */
+
+.trusted-companies {
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    margin: 3% auto;
+    max-width: 1200px;
+}
+
+.trusted-companies h3 {
+    font-size: 24px;
+    color: #c14400;
+}
+
+.companies span {
+    margin: 12px 18px;
+    font-size: 18px;
+    color: #666;
+    transition: transform 0.3s ease;
+}
+
+.companies span:hover {
+    transform: scale(1.1);
+    color: #d94f04;
+}
+
+
+/* Stats Section */
+
+.stats-parent-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #fffaf0;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.stat-item {
+    text-align: center;
+    width: 180px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.stat-item:hover {
+    transform: scale(1.05);
+}
+
+.stat-number {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #ff6f61;
+}
+
+.stat-description {
+    font-size: 1em;
+    color: #444;
+}
+
+
+/* Start Career Section */
+
+.start-career {
+    background: linear-gradient(to right, #fdf6ec, #ffd3b6);
+    text-align: center;
+    padding: 50px 30px;
+    border-radius: 20px;
+    margin: 20px auto;
+    width: 90%;
+    color: #5c1a00;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.start-career:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+}
+
+.start-career h4 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #4e1e00;
+}
+
+.start-career button {
+    background-color: #d94f04;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    font-size: 16px;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-top: 15px;
+    transition: transform 0.2s ease, box-shadow 0.3s;
+}
+
+.start-career button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(217, 79, 4, 0.4);
+}
+
+
+/* Minor Fixes */
+
+.negative h3 {
+    font-size: 1.4em;
+    color: #a94442;
+}
+
+.negative {
+    margin-top: 30px;
+}
